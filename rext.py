@@ -15,6 +15,9 @@ args = parser.parse_args()
 
 if args.dir and args.ext:
     directory = os.path.abspath(args.dir)
+    if not os.path.isdir(directory):
+        print("No such directory: '"+directory+"'")
+        sys.exit()
     os.chdir(directory)
     if args.verbose:
         print("===============")
