@@ -1,5 +1,5 @@
 # Rext - Remove Extension
-Rext is a python script to remove all extension on your file system.
+Rext is a python script to remove file extension on your file system.
 
 ## Usage
 
@@ -34,3 +34,4 @@ $ python3 rext.py -d exampledir/ -e .rapid
 - http://www.diveintopython.net/functional_programming/finding_the_path.html
 - https://stackoverflow.com/questions/431684/how-do-i-cd-in-python
 - https://stackoverflow.com/questions/37014760/recursively-rename-file-extensions
+- https://stackoverflow.com/questions/14097061/easier-way-to-enable-verbose-logging

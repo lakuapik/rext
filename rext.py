@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 ##  Rext - Remove extension
-##  Remove all extension on file system
+##  Remove file extension on file system
 ##  @author: David Adi Nugroho <davidadi216@gmail.com>
 
 import os
