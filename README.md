@@ -13,6 +13,7 @@ optional arguments:
   -h, --help         show this help message and exit  
   -d DIR, --dir DIR  directory of file(s)  
   -e EXT, --ext EXT  extension to be removed  
+  -v, --verbose      show all renamed files
 
 ## Example
 ```shell
@@ -30,6 +31,6 @@ $ python3 rext.py -d exampledir/ -e .rapid
 
 ## Thanks to 
 - https://docs.python.org/3/howto/argparse.html
--http://www.diveintopython.net/functional_programming/finding_the_path.html
+- http://www.diveintopython.net/functional_programming/finding_the_path.html
 - https://stackoverflow.com/questions/431684/how-do-i-cd-in-python
 - https://stackoverflow.com/questions/37014760/recursively-rename-file-extensions
